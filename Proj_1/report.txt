@@ -1,0 +1,9 @@
+Info: Processing symbol 'C1:'.
+Info: Processing symbol 'R1:'.
+Info: Processing symbol 'R2:'.
+Error: Cannot add C1 (no footprint assigned).
+Error: Cannot add R1 (no footprint assigned).
+Error: Cannot add R2 (no footprint assigned).
+
+
+Info: Total warnings: 0, errors: 3.
