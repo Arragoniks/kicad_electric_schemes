@@ -1,0 +1,277 @@
+@charset "UTF-8";
+/*! normalize.css v3.0.1 | MIT License | git.io/normalize */
+html {
+  font-family: 'Roboto Condensed', Helvetica, sans-serif, '微軟正黑體', 'Microsoft JhengHei';
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+  display: block;
+}
+
+audio, canvas, progress, video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+[hidden], template {
+  display: none;
+}
+
+a {
+  background: transparent;
+  color: #323237;
+  text-decoration: none;
+}
+a:active, a:hover {
+  outline: 0;
+  color: #37a6d9;
+}
+
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+b, strong {
+  font-weight: bold;
+}
+
+dfn {
+  font-style: italic;
+}
+
+/*h1 {
+	font-size: 2em;
+	margin: 0.67em 0;
+}*/
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+w10 pd5-10 {
+  font-size: 80%;
+}
+
+sub {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+  bottom: -0.25em;
+}
+
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+  top: -0.5em;
+}
+
+img {
+  border: 0;
+  vertical-align: bottom;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+figure {
+  margin: 1em 40px;
+}
+
+hr {
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: border-box;
+  height: 0;
+}
+
+pre {
+  overflow: auto;
+}
+
+code, kbd, pre, samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+button, input, optgroup, select, textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+/*button {
+	overflow: visible;
+	text-transform: none;
+}
+
+select {
+	text-transform: none;
+}
+
+button, html input[type="button"] {
+	-webkit-appearance: button;
+	cursor: pointer;
+}
+
+input {
+	-webkit-appearance: none;
+	appearance: none;
+	-moz-appearance: none;
+	border-radius: 0;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+	line-height: normal;
+
+	&::-moz-focus-inner {
+		border: 0;
+		padding: 0;
+	}
+
+	&[type="reset"], &[type="submit"] {
+		cursor: pointer;
+	}
+
+	&[type="checkbox"], &[type="radio"] {
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+		padding: 0;
+	}
+
+	&[type="number"] {
+		&::-webkit-inner-spin-button, &::-webkit-outer-spin-button {
+			height: auto;
+		}
+	}
+
+	&[type="search"] {
+		-moz-box-sizing: content-box;
+		-webkit-box-sizing: content-box;
+		box-sizing: content-box;
+
+		&::-webkit-search-cancel-button, &::-webkit-search-decoration {
+			-webkit-appearance: none;
+		}
+	}
+}
+
+button[disabled], html input[disabled] {
+	cursor: default;
+}
+
+button::-moz-focus-inner {
+	border: 0;
+	padding: 0;
+}
+
+fieldset {
+	border: 1px solid #c0c0c0;
+	margin: 0 2px;
+	padding: 0.35em 0.625em 0.75em;
+}
+
+legend {
+	border: 0;
+	padding: 0;
+}
+
+textarea {
+	overflow: auto;
+}
+
+optgroup {
+	font-weight: bold;
+}*/
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td, th {
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 0;
+  text-align: left;
+}
+
+h1 {
+  color: #333;
+  font-size: 42px;
+  font-weight: normal;
+}
+h1 a {
+  color: #072b61;
+}
+
+h2 {
+  color: #37abd9;
+  font-size: 26px;
+  font-weight: normal;
+}
+h2 a {
+  color: #37abd9;
+}
+
+h3 {
+  color: #333;
+  font-size: 1.6rem;
+}
+h3 a {
+  color: #072b61;
+}
+
+h4 {
+  color: #333;
+  font-size: 1.2rem;
+}
+h4 a {
+  color: #072b61;
+}
+
+h5 {
+  color: #333;
+  font-size: 15px;
+  font-weight: bold;
+}
+h5 a {
+  color: #333;
+}
+
+input {
+  /*-moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;*/
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+input[type="text"], input[type="search"], input[type="password"] {
+  border: 1px solid #fff;
+  height: 28px;
+  padding: 5px;
+  font-size: 14px;
+  outline: none;
+}

@@ -1,0 +1,112 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+h1 {
+  color: #333;
+  font-size: 42px;
+  font-weight: bold !important;
+  padding-top: 2rem;
+}
+
+.pg-search h1 {
+  color: #333;
+  /*font-size: 42px;*/
+  font-weight: bold !important;
+  padding-top: 40px;
+  padding-bottom: 1rem;
+}
+
+
+p{
+  color:#323237;
+   line-height: 1.6rem;
+}
+
+h3 {
+	  font-weight: 700 !important;
+	  color:#072B61;
+}
+
+
+.rtk-pager span {
+	border: 1px solid #ccc;
+}
+
+div.videoinfo.pd-intro.fr {
+	width:370px !important;
+}
+
+.list-result .a-pro .nl-desc {
+  height: 3.5rem;
+  margin-bottom: 15px;
+  overflow: hidden;
+  font-size: 1rem;
+  color: #333;
+  font-weight: bold;
+  line-height: 1.6rem;
+}
+
+ /*div.videoinfo.pd-intro.fr {
+        width:100% !important;
+    }
+.pd-top-line .pd-intro {
+  padding: 20px 0;
+}*/
+
+
+.tab-panel .hide {
+  display: none !important;
+}
+
+table.tb-main > thead > tr > th a:hover, table.tb-main > thead > tr > td a:hover, table.tb-main > tbody > tr > th a:hover, table.tb-main > tbody > tr > td a:hover {
+  color: #37a6d9;
+  /*!text-decoration: underline;*/
+}
+
+table.tb-main > thead > tr > th a:hover, table.tb-main > thead > tr > td a:hover, table.tb-main > tbody > tr > th a:hover, table.tb-main > tbody > tr > td a:hover {
+   color: #37a6d9;
+  /*!text-decoration: underline;*/
+}
+
+.fancybox-inner input[type="text"], input[type="search"], input[type="password"] {
+  border: 1px solid #a6a6b7;
+  height: 28px;
+  padding: 5px;
+  font-size: 14px;
+}
+
+.search-box input[type="text"], input[type="search"], input[type="password"] {
+  /*! border: 1px solid #fff; */
+  height: 26px;
+  padding: 5px;
+  font-size: 14px;
+}
+
+label {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+  color: #323237;
+  font-size: 0.9rem;
+}
+
+#divFilterPanel table > tbody > tr:hover {
+    background-color: #fff !important;
+}
+
+
+
+/*! Tab for Bootstrap4 202103 */
+.tab-nav li.active a{
+  /*! background: url(../images/table-bg.png) repeat-x left top; */
+   background-color: #072b61;
+}
+
+.tab-nav li.active a:hover{
+   background-color: #072b61;
+  
+}
+
+div#divFilterPanel table.tblFilter td {
+         background-color: #f5f5f5;
+    }

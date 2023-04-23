@@ -1,0 +1,603 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/************************************************************************
+*
+* basic Document 
+* ----------------------------------------------------------------------
+* Background Color styling.
+*
+* Author: Kuan
+* Date: Nov 10, 2020.
+*
+************************************************************************/
+
+@media (max-width: 576px) {
+  html {
+    font-size: 11px;
+  }
+}
+@media (min-width:577) and (max-width:767px){
+ html {
+    font-size: 12px;
+  }
+}
+@media (max-width: 992px) {
+  html {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 993px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1400px) {
+  html {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1920px) {
+  html {
+    font-size: 20px;
+  }
+}
+
+
+/************************************************************************
+*
+* Background Color 
+* ----------------------------------------------------------------------
+* Background Color styling.
+*
+* Author: Kuan
+* Date: Nov 10, 2020.
+*
+************************************************************************/
+
+.bg-black {
+  background: #000000;
+  width: 100%;
+  min-width: 880px;
+}
+
+.bg-darkness {
+  background: #161616;
+  width: 100%;
+  min-width: 880px;
+}
+
+.bg-gray {
+  background: #ebebeb;
+  width: 100%;
+  min-width: 880px;
+}
+
+.bg-light-gray {
+  background: rgba(0, 0, 0, 0.03);
+  width: 100%;
+  /*min-width: 880px;*/
+}
+
+.bg-write {
+  background: #ffffff;
+  width: 100%;
+  min-width: 880px;
+}
+
+.bg-deepblue {
+  background: #072B61;
+  width: 100%;
+  min-width: 880px;
+}
+
+.text-deepblue{
+  color: #072B61;
+}
+
+.text-lightgray{
+  color: #a6a6b7;
+} 
+
+.text-deepgray{
+  color: #323237;
+} 
+
+.text-blue{
+  color: #37a6d9;
+} 
+
+.block-darkness {
+  background: #161616;
+}
+
+.block-lightgray {
+  background: rgba(0, 0, 0, 0.03);
+}
+
+
+/************************************************************************
+*
+* Button Color 
+* ----------------------------------------------------------------------
+* Button Color styling.
+*
+* Author: Kuan
+* Date: Nov 10, 2020.
+*
+************************************************************************/
+
+.btn-primary {
+  color: #fff;
+  background-color: #37a6d9;
+  border-color: #37a6d9;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #2d89b3;
+  border-color: #2d89b3;
+}
+
+.btn-primary:focus, .btn-primary.focus {
+  color: #fff;
+  background-color: #2d89b3;
+  border-color: #2d89b3;
+}
+
+.btn-primary.disabled, .btn-primary:disabled {
+  color: #fff;
+  background-color: #2d89b3;
+  border-color: #2d89b3;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
+.show > .btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #2d89b3;
+  border-color: #2d89b3;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
+.show > .btn-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
+}
+
+.btn-thirdly {
+  color: #666;
+  background-color: #f2f2f2;
+  border-color: #f2f2f2;
+}
+
+.btn-thirdly:hover {
+  color: #fff;
+  background-color: #37a6d9;
+  border-color: #37a6d9;
+}
+
+.btn-inverse {
+ color:#fff;
+ background-color:hsla(0,0%,100%,.1);
+ border-color:#fff;
+ display: inline-block;
+  border: 1px solid #fff ;
+  padding: 0.4rem 1.3rem;
+}
+
+.btn-inverse.active,
+.btn-inverse.active.focus,
+.btn-inverse.active:focus,
+.btn-inverse.active:hover,
+.btn-inverse.focus,
+.btn-inverse.hover,
+.btn-inverse:active,
+.btn-inverse:active.focus,
+.btn-inverse:active:focus,
+.btn-inverse:active:hover,
+.btn-inverse:focus,
+.btn-inverse:hover,
+.open>.btn-inverse.dropdown-toggle,
+.open>.btn-inverse.dropdown-toggle.focus,
+.open>.btn-inverse.dropdown-toggle:focus,
+.open>.btn-inverse.dropdown-toggle:hover {
+ color:#6c757d;
+ background-color:#fff;
+}
+.btn-inverse.active,
+.btn-inverse:active,
+.open>.btn-inverse.dropdown-toggle {
+ background-image:none
+}
+.btn-inverse.disabled.focus,
+.btn-inverse.disabled:focus,
+.btn-inverse.disabled:hover,
+.btn-inverse[disabled].focus,
+.btn-inverse[disabled]:focus,
+.btn-inverse[disabled]:hover,
+fieldset[disabled] .btn-inverse.focus,
+fieldset[disabled] .btn-inverse:focus,
+fieldset[disabled] .btn-inverse:hover {
+ background-color:hsla(0,0%,100%,.1);
+ border-color:#fff
+}
+
+
+/************************************************************************
+*
+* breadcrumb 
+* ----------------------------------------------------------------------
+* breadcrumb styling.
+*
+* Author: Kuan
+* Date: Nov 10, 2020.
+*
+************************************************************************/
+
+
+.page-breadcrumb {}
+
+.page-breadcrumb .breadcrumb {}
+
+.page-breadcrumb .breadcrumb-item {
+  margin-bottom: 0.25rem;}
+
+.page-breadcrumb .breadcrumb-link {
+    color: #a6a6b7;
+}
+
+.page-breadcrumb .breadcrumb-link:hover {
+    color: #37a6d9;
+}
+
+.page-breadcrumb .breadcrumb {
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 0 0 1rem 0;
+    list-style: none;
+    background-color: transparent;
+    border-radius: 0px;
+    border-bottom: 1px solid #eeeeee;
+    font-size: 0.8rem;
+	 color: #a6a6b7;
+}
+
+.page-breadcrumb .breadcrumb .breadcrumb-item+.breadcrumb-item::before {
+    display: inline-block;
+    padding-right: .5rem;
+    color: #b1b1c0;
+    /*! content: "\f105"; */
+    font-family: 'Font Awesome\ 5 Free';
+    font-weight: 600;
+	/*!padding-bottom: 4px;*/
+}
+
+.page-breadcrumb .breadcrumb .breadcrumb-item+.bread-select::before {
+    display: inline-block;
+    padding-right: .5rem;
+    color: #b1b1c0;
+    /*! content: "\f105"; */
+    font-family: 'Font Awesome\ 5 Free';
+    font-weight: 600;
+	/*! padding-bottom: 6px; */
+}
+
+.page-breadcrumb .breadcrumb-item.active {
+    color: #71728e;
+}
+
+
+ol.breadcrumb > ul.trans-element {
+margin-bottom: 0.25rem !important;
+}
+
+
+/************************************************************************
+*
+* subscribe
+* ----------------------------------------------------------------------
+* subscribe styling.
+*
+* Author: Kuan
+* Date: Nov 10, 2020.
+*
+************************************************************************/
+
+.cus-content-subscribe {
+	-ms-flex:1 1 auto;
+	flex:1 1 auto;
+	padding:0rem 1rem 0.8rem 1rem;
+}
+
+.cus-content-subscribe .page-header .cus-btn{
+  color: #37a6d9;
+  border-color: #37a6d9;
+}
+
+.cus-content-subscribe .page-header .cus-btn:hover {
+  color: #fff;
+  background-color: #37a6d9;
+  border-color: #37a6d9;
+}
+
+
+/************************************************************************
+*
+* margin / padding
+* ----------------------------------------------------------------------
+* margin / padding styling.
+*
+* Author: Kuan
+* Date: Nov 10, 2020.
+*
+************************************************************************/
+
+
+.mb-10 {
+  margin-top: 20px;
+}
+
+.mb-20 {
+  margin-top: 20px;
+}
+
+.mb-30 {
+  margin-top: 30px;
+}
+
+.mb-40 {
+  margin-top: 40px;
+}
+
+.mb-50 {
+  margin-top: 50px;
+}
+.pl0 {
+	padding-left: 0 !important;
+}
+.pr0 {
+	padding-right: 0 !important;
+}
+
+/* homepage-slider 2021*/
+
+
+.transform-none {
+ text-transform:none
+}
+
+.carousel,
+.carousel-inner {
+ position:relative
+}
+.carousel-inner {
+ overflow:hidden;
+ width:100%
+}
+.carousel-inner>.item {
+ display:none;
+ position:relative;
+ -webkit-transition:left .6s ease-in-out;
+ transition:left .6s ease-in-out
+}
+.carousel-inner>.item>a>img,
+.carousel-inner>.item>img {
+ display:block;
+ max-width:100%;
+ height:auto;
+ line-height:1
+}
+@media (-webkit-transform-3d),(transform-3d) {
+ .carousel-inner>.item {
+  -webkit-transition:-webkit-transform .6s ease-in-out;
+  transition:-webkit-transform .6s ease-in-out;
+  transition:transform .6s ease-in-out;
+  transition:transform .6s ease-in-out,-webkit-transform .6s ease-in-out;
+  -webkit-backface-visibility:hidden;
+  backface-visibility:hidden;
+  -webkit-perspective:1000px;
+  perspective:1000px
+ }
+ .carousel-inner>.item.active.right,
+ .carousel-inner>.item.next {
+  -webkit-transform:translate3d(100%,0,0);
+  transform:translate3d(100%,0,0);
+  left:0
+ }
+ .carousel-inner>.item.active.left,
+ .carousel-inner>.item.prev {
+  -webkit-transform:translate3d(-100%,0,0);
+  transform:translate3d(-100%,0,0);
+  left:0
+ }
+ .carousel-inner>.item.active,
+ .carousel-inner>.item.next.left,
+ .carousel-inner>.item.prev.right {
+  -webkit-transform:translateZ(0);
+  transform:translateZ(0);
+  left:0
+ }
+}
+.carousel-inner>.active,
+.carousel-inner>.next,
+.carousel-inner>.prev {
+ display:block
+}
+.carousel-inner>.active {
+ left:0
+}
+.carousel-inner>.next,
+.carousel-inner>.prev {
+ position:absolute;
+ top:0;
+ width:100%
+}
+.carousel-inner>.next {
+ left:100%
+}
+.carousel-inner>.prev {
+ left:-100%
+}
+.carousel-inner>.next.left,
+.carousel-inner>.prev.right {
+ left:0
+}
+.carousel-inner>.active.left {
+ left:-100%
+}
+.carousel-inner>.active.right {
+ left:100%
+}
+.carousel-control {
+ position:absolute;
+ top:0;
+ left:0;
+ bottom:0;
+ width:15%;
+ opacity:.5;
+ filter:alpha(opacity=50);
+ font-size:20px;
+ color:#fff;
+ text-align:center;
+ text-shadow:0 1px 2px rgba(0,0,0,.6);
+ background-color:transparent
+}
+.carousel-control.left {
+ background-image:-webkit-gradient(linear,left top,right top,from(rgba(0,0,0,.5)),to(rgba(0,0,0,.0001)));
+ background-image:linear-gradient(90deg,rgba(0,0,0,.5) 0,rgba(0,0,0,.0001));
+ background-repeat:repeat-x;
+ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#80000000",endColorstr="#00000000",GradientType=1)
+}
+.carousel-control.right {
+ left:auto;
+ right:0;
+ background-image:-webkit-gradient(linear,left top,right top,from(rgba(0,0,0,.0001)),to(rgba(0,0,0,.5)));
+ background-image:linear-gradient(90deg,rgba(0,0,0,.0001) 0,rgba(0,0,0,.5));
+ background-repeat:repeat-x;
+ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#00000000",endColorstr="#80000000",GradientType=1)
+}
+.carousel-control:focus,
+.carousel-control:hover {
+ outline:0;
+ color:#fff;
+ text-decoration:none;
+ opacity:.9;
+ filter:alpha(opacity=90)
+}
+.carousel-control .glyphicon-chevron-left,
+.carousel-control .glyphicon-chevron-right,
+.carousel-control .icon-next,
+.carousel-control .icon-prev {
+ position:absolute;
+ top:50%;
+ margin-top:-10px;
+ z-index:5;
+ display:inline-block
+}
+.carousel-control .glyphicon-chevron-left,
+.carousel-control .icon-prev {
+ left:50%;
+ margin-left:-10px
+}
+.carousel-control .glyphicon-chevron-right,
+.carousel-control .icon-next {
+ right:50%;
+ margin-right:-10px
+}
+.carousel-control .icon-next,
+.carousel-control .icon-prev {
+ width:20px;
+ height:20px;
+ line-height:1;
+ font-family:serif
+}
+.carousel-control .icon-prev:before {
+ content:"\2039"
+}
+.carousel-control .icon-next:before {
+ content:"\203a"
+}
+.carousel-indicators {
+ position:absolute;
+ bottom:10px;
+ left:50%;
+ z-index:15;
+ width:60%;
+ margin-left:-30%;
+ padding-left:0;
+ list-style:none;
+ text-align:center
+}
+.carousel-indicators li {
+ display:inline-block;
+ width:10px;
+ height:10px;
+ margin:1px;
+ text-indent:-999px;
+ border:1px solid #fff;
+ border-radius:10px;
+ cursor:pointer;
+ background-color:#000\9;
+ background-color:transparent
+}
+.carousel-indicators .active {
+ margin:0;
+ width:12px;
+ height:12px;
+ background-color:#fff
+}
+.carousel-caption {
+ position:absolute;
+ left:10%;
+ right:10%;
+ bottom:5.5rem;
+ z-index:10;
+ padding-top:20px;
+ padding-bottom:20px;
+ color:#fff;
+ text-align:center;
+ /*text-shadow:0 1px 2px rgba(0,0,0,.6)*/
+ max-width:500px;
+}
+.carousel-caption .btn,
+.carousel-caption .download-details,
+.carousel-caption .nav-close {
+ text-shadow:none
+}
+@media screen and (min-width:768px) {
+ .carousel-control .glyphicon-chevron-left,
+ .carousel-control .glyphicon-chevron-right,
+ .carousel-control .icon-next,
+ .carousel-control .icon-prev {
+  width:30px;
+  height:30px;
+  margin-top:-10px;
+  font-size:30px
+ }
+ .carousel-control .glyphicon-chevron-left,
+ .carousel-control .icon-prev {
+  margin-left:-10px
+ }
+ .carousel-control .glyphicon-chevron-right,
+ .carousel-control .icon-next {
+  margin-right:-10px
+ }
+ 
+ .carousel-indicators {
+  bottom:20px
+ }
+}
+
+/* Header Start
+-------------------------------------------------- */
+
+.pickLanguage {
+  padding-left: 10px;
+}
+
+/* Header End
+-------------------------------------------------- */

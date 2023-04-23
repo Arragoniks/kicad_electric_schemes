@@ -1,0 +1,149 @@
+/*
+	transformSelect CSS
+*/
+.transformSelect {
+  /*! clear: both; */
+  /*! width: 100%; */
+}
+
+.transformSelect li {
+  /*! position: relative; */
+  list-style: none;
+}
+
+.transformSelect span, .transformSelect input[type=text] {
+  background: #ffffff no-repeat url(../images/fancyform/transformselect.gif) right center;
+  border: 1px solid #ccc;
+  color: #575757;
+  cursor: pointer;
+  display: block;
+  left: 0;
+  margin: 0;
+  padding: 3px 5px;
+  top: 0;
+  line-height: 20px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.transformSelect li.open span, .transformSelect li.open input[type=text] {
+  border-radius: 5px 5px 0 0;
+  -webkit-border-radius: 5px 5px 0 0;
+}
+
+.transformSelect input[type=text] {
+  width: 188px;
+}
+
+.transformSelect ul {
+  position: absolute;
+  border: 1px solid #CCCCCC;
+  border-top: 0;
+  width: 198px;
+  border-radius: 0 0 5px 5px;
+  -webkit-border-radius: 0 0 5px 5px;
+}
+
+.transformSelect ul span {
+  border: 0;
+  background: #ffffff;
+}
+
+.transformSelect ul span:hover {
+  background: #dddddd;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+}
+
+.transformSelect ul li {
+  height: auto;
+}
+
+.transformSelect li.group ul {
+  position: static;
+  border: 1px solid #dddddd;
+  border-right: 0;
+  border-left: 0;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+}
+
+.transformSelect li.group span {
+  font-style: italic;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  background: #F7F7F7;
+}
+
+.transformSelect li.group > span {
+  background: #eeeeee;
+  border-top: 1px solid #dddddd;
+}
+
+.transformSelect li.group ul span {
+  text-indent: 10px;
+  font-style: normal;
+}
+
+.transformSelect ul li.group ul span:hover {
+  background: #dddddd;
+}
+
+.transformSelect input[type=checkbox] {
+  position: relative;
+  top: 2px;
+  margin: 0 5px 0 0;
+  cursor: pointer;
+}
+
+/* Radio */
+.trans-element-radio {
+  display: inline-block;
+  *display: block;
+  zoom: 1;
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
+.trans-element-radio.checked {
+  background: no-repeat url(../images/fancyform/chk_on.png) center center;
+}
+
+.trans-element-radio.unchecked {
+  background: no-repeat url(../images/fancyform/chk_off.png) center center;
+}
+
+.image img, .trans-element-radio, .trans-element-checkbox, #tristate img {
+  padding: 5px;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  vertical-align: middle;
+  margin: 0 0 5px;
+}
+
+/* Checkbox */
+.trans-element-checkbox {
+  display: inline-block;
+  *display: block;
+  zoom: 1;
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
+.trans-element-checkbox.checked {
+  background: no-repeat url(../images/fancyform/chk_on.png) center center;
+}
+
+.trans-element-checkbox.unchecked {
+  background: no-repeat url(../images/fancyform/chk_off.png) center center;
+}
+<link href="/sitecore/shell/themes/standard/default/Default.css" rel="stylesheet" />
+
+<link href="/sitecore/shell/controls/Lib/Flexie/flex.css" rel="stylesheet" />
+
